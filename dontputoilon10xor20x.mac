@@ -1,0 +1,8 @@
+char caption[64];
+char query[64];
+char button[64];
+sprintf(caption, "Please take care!", "");
+sprintf(query, "DON'T PUT OIL ON 10x or 20x - \n Make sure you clean slides when switching \n between lenses\n Thank you - George & Chen", "");
+sprintf(button, "ok I will", "");
+Int_Query(caption, query, button);
+   
