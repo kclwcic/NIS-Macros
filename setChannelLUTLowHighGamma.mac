@@ -1,0 +1,4 @@
+LUTs_SetLowHighGamma(0,0,800,0.50000); // channel int, blackpoint int, whitepoint int, gamma float
+LUTs_SetLowHighGamma(1,0,1000,0.50000);
+
+ 

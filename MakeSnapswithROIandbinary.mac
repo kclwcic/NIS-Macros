@@ -1,0 +1,12 @@
+char filename[260];
+
+ShowScale(1); //makes the scale bar visible - if you want to change the appearance of the scalebar open the dropdown in the icon on the image window
+ShowLUTIntensity(1); //displays the LUT intensity bar - useful if you use some 
+
+Get_Filename(5,filename); //gets the open image filepath //gr
+strcat(filename, "viewsnap.jpg");
+
+CreateViewSnapshotFull();
+ImageSaveAs(filename,15,0);//savesimage in same directory as your source image
+CloseCurrentDocument(2);//closes that snapshot view - you can add another of these in the next line if you want the macro to handle the closing of documents - NIS has an option for that also
+  
