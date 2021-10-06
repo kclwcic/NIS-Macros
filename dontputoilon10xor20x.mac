@@ -1,3 +1,6 @@
+/// This will create a prompt that requires someone to click a button before continuing - useful for having as a startup macro to remind users
+/// to not bludgeon the lenses with oil that are meant to be kept clean
+
 char caption[64];
 char query[64];
 char button[64];
